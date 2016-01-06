@@ -1,0 +1,112 @@
+@import url(https://fonts.googleapis.com/css?family=Alegreya);
+
+body {
+  font-family: 'Alegreya', sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+  background-color: #d70044;
+  color: #fad42b;
+  margin-top:0;
+  padding-left: .5em;
+}
+
+#smallRuler {
+  clear: both;
+  width: 2000px;
+}
+
+#bigRuler {
+  clear: both;
+  width: 2000px;
+}
+
+.bigSegment {
+  width: 99px;
+  float: left;
+  box-sizing: border-box;
+  border-right: 1px solid black;
+  font-size: x-small;
+  height: 30px;
+}
+
+.ruledSegment {
+  width: 9px;
+  float: left;
+  box-sizing: border-box;
+  border-right: 1px solid black;
+  font-size: xx-small;
+  height: 30px;
+}
+
+.instructions {
+  background-color: #F0F0D8;
+  padding: .2em;
+  margin: 1em;
+  border-radius: .25em;
+  clear: both;
+}
+
+.exercise {
+  background-color: #f0f0f4;
+  clear: both;
+  overflow: auto;
+}
+
+.example1 {
+  width: 100%;
+  background-color: #d70044;
+  color: #fad42b;
+}
+
+.example2 {
+  background-color: #5f1130;
+  color: #fad42b;
+}
+
+.radius {
+  width: 30em;
+  height: 5em;
+  background-color: maroon;
+  color: white;
+  padding: 1em;
+  margin: 1em;
+}
+
+.spaceExample {
+  background-color: maroon;
+  color: white;
+  padding: 1em;
+}
+
+.demoContainer {
+  background-color:lightblue;
+}
+
+#sheetDemo1 {
+  color: blue;
+}
+
+#sheetDemo2 {
+  color:green;
+}
+
+.demoContainer2 {
+  background-color:lightblue;
+  width:80%;
+  margin:0 5%;
+}
+
+#boxmodeldemocon {
+  background-color: #00AA00;
+  overflow: auto;
+}
+
+#boxmodeldemo {
+  margin: 20px;
+  border: 1px solid black;
+  padding: 20px;
+  background-color: lightblue;
+}
